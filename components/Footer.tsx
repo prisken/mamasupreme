@@ -47,7 +47,10 @@ export default function Footer() {
             <p className="text-sm text-foreground/70">
               接收最新活動與內容更新。
             </p>
-            <form className="flex w-full max-w-md gap-2" method="post">
+            <form
+              className="flex flex-col sm:flex-row w-full max-w-md gap-2"
+              method="post"
+            >
               <label htmlFor="newsletter-email" className="sr-only">
                 Email
               </label>
@@ -63,7 +66,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="shrink-0 rounded-md bg-foreground px-4 py-2 text-sm font-semibold text-background hover:opacity-90 transition"
+                className="w-full sm:w-auto shrink-0 rounded-md bg-foreground px-4 py-2 text-sm font-semibold text-background hover:opacity-90 transition"
               >
                 提交
               </button>
