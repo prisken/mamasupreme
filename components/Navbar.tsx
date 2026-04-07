@@ -5,9 +5,9 @@ import { useEffect, useId, useState } from "react";
 
 const navLinks = [
   { label: "首頁", href: "/" },
-  { label: "MDS理念", href: "/mds" },
+  { label: "MDS理念", href: "/philosophy" },
   { label: "活動專區", href: "/events" },
-  { label: "兒歌天地", href: "/songs" },
+  { label: "兒歌天地", href: "/music" },
   { label: "資源庫", href: "/resources" },
   { label: "關於我們", href: "/about" },
 ] as const;
