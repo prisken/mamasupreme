@@ -1,9 +1,22 @@
 import Link from "next/link";
 
 const socialLinks = [
-  { label: "Instagram", href: "https://instagram.com" },
-  { label: "Facebook", href: "https://facebook.com" },
-  { label: "YouTube", href: "https://youtube.com" },
+  {
+    label: "IG",
+    href: "https://www.instagram.com/mamasupreme.hk?igsh=NXZveGRscXd3YTV5&utm_source=qr",
+  },
+  {
+    label: "Threads",
+    href: "https://www.threads.com/@mamasupreme.hk?igshid=NTc4MTIwNjQ2YQ==",
+  },
+  {
+    label: "FB",
+    href: "https://www.facebook.com/profile.php?id=61572163374474",
+  },
+  {
+    label: "YouTube",
+    href: "https://www.youtube.com/channel/UC5W8TeMld0WE_zzA0LmKTUQ",
+  },
 ] as const;
 
 export default function Footer() {
